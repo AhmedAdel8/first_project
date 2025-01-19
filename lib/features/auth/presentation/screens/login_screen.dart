@@ -40,11 +40,11 @@ class LoginScreen extends StatelessWidget {
                   print('Email: $email, Password: $password');
 
                   context.read<AuthCubit>().userLogin(
-                    email: email,
-                    password: password,
-                  );
+                        email: email,
+                        password: password,
+                      );
                 },
-                child: const Text('up date login'),
+                child: const Text('up date login 2 '),
               ),
             ),
           ],
@@ -53,7 +53,6 @@ class LoginScreen extends StatelessWidget {
     );
   }
 }
-
 
 class EmailController extends StatelessWidget {
   final TextEditingController controller;
